@@ -22,12 +22,12 @@ import { XIcon } from "../components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Sherzod Saidmaksumov",
   initials: "SS",
-  location: "New-York, NY, USA",
-  locationLink: "https://www.google.com/maps/place/New-York,NY",
+  location: "Brooklyn, NY, USA",
+  locationLink: "https://www.google.com/maps/place/Brooklyn,+NY/",
   about:
-    "Full Stack Web Developer with a strong focus on creating robust and user-friendly websites",
+    "Full Stack Web Developer specializing in developing interactive, responsive websites",
   summary:
-    "Experienced in all stages of web development, from concept to final rollout. Skilled in HTML, CSS, JavaScript, and PHP with a strong grasp of WordPress and Python-based frameworks like Django. Over 5 years of remote work experience, delivering high-quality web solutions.",
+    "Developer with over five years of experience, skilled in HTML, CSS, JavaScript, and PHP. Proficient in WordPress and Python frameworks like Django, I specialize in the full development cycle from concept to deployment, focusing on delivering efficient and effective web solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/119113734?v=4",
   personalWebsiteUrl: "https://sherzod.dev",
   contact: {
@@ -36,7 +36,7 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/SherzodSaidmaksumov",
+        url: "https://github.com/dortesy",
         icon: GitHubIcon,
       },
       {
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2023",
       description:
-        "Sole web developer, responsible for web development lifecycle. Worked with HTML, CSS, JavaScript, and PHP. Created custom WordPress themes and plugins. Implemented WooCommerce and developed Python/Django websites.",
+        "As the sole web developer, I specialized in creating and managing websites from concept to launch, using HTML, CSS, JavaScript, and PHP. My expertise included developing custom WordPress themes, integrating WooCommerce for e-commerce functionality, and handling Python-based web crawling and content management.",
     },
     {
       company: "Сreativemade",
@@ -109,31 +109,38 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Blackmore International Мusic Academy",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "PHP",
+        "WooCommerce",
+        "Design"
       ],
-      description: "A platform to build and grow your online business",
+      description: "WordPress-based learning website for music masterclasses with WooCommerce functionality.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "blackmore-academy.com",
+        href: "https://blackmore-academy.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Geringas Chamber Orchestra",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "Design"
+      ],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Custom-designed WordPress site for Geringas Chamber Orchestra, HTML, CSS, JavaScript development.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Geringas-chamber-orchestra.de",
+        href: "https://geringas-chamber-orchestra.de/",
       },
     },
     {
