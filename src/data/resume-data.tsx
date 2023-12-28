@@ -143,17 +143,17 @@ export const RESUME_DATA = {
         href: "https://geringas-chamber-orchestra.de/",
       },
     },
-    // {
-    //   title: "Jarocki.me",
-    //   techStack: ["Side Project", "Next.js", "MDX"],
-    //   description:
-    //     "My personal website and blog. Built with Next.js and Notion API",
-    //   logo: JarockiMeLogo,
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://jarocki.me/",
-    //   },
-    // },
+    {
+      title: "Horizon Global",
+      techStack: ["HTML", "CSS", "Javascript", 'SASS'],
+      description:
+        "Landing page for immigration consultant company",
+      logo: '',
+      link: {
+        label: "Horizon Global",
+        href: "https://www.sherzod.dev/portfolio/index.html",
+      },
+    },
     // {
     //   title: "Minimal",
     //   techStack: ["Side Project", "Next.js", "Puppeteer"],
