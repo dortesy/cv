@@ -191,6 +191,20 @@ export const RESUME_DATA = {
       },
     },
 
+    {
+      title: "Personal website for music artist",
+      techStack: ["Wordpress", "HTML", "CSS", "JavaScript", "SASS",],
+      description:
+        "Personal website for music artist Heesook Ahn, created from scratch using wordpress, gulp/sass",
+      logo: '',
+      link: {
+        label: "heesookahn.net",
+        href: "http://heesookahn.net/de/",
+      },
+    },
+
+
+
     
     // {
     //   title: "Minimal",
