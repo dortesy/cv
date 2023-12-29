@@ -126,6 +126,30 @@ export const RESUME_DATA = {
         href: "https://blackmore-academy.com/",
       },
     },
+
+    {
+      title: "Read books online",
+      techStack: [
+        "Python",
+        "Django",
+        "Design",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SASS",
+        'Pet-project'
+      ],
+      description: "Website I built from scratch for online book reading, featuring snippets of books for free. Designed and coded using HTML, CSS, JavaScript, and Python/Django, it includes user registration, dark/light mode toggle, and a reading interface.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "kelebooks.com",
+        href: "https://kelebooks.com/",
+      },
+    },
+
+
+
+
     {
       title: "Geringas Chamber Orchestra",
       techStack: [
@@ -145,15 +169,29 @@ export const RESUME_DATA = {
     },
     {
       title: "Horizon Global",
-      techStack: ["HTML", "CSS", "Javascript", 'SASS'],
+      techStack: ["HTML", "CSS", "Javascript", 'SASS', 'Gulp'],
       description:
-        "Landing page for immigration consultant company",
+        "Developed Horizon Global's website, a streamlined landing page for European residency services, using HTML, CSS, JavaScript, SASS, and Gulp.",
       logo: '',
       link: {
         label: "Horizon Global",
         href: "https://www.sherzod.dev/portfolio/index.html",
       },
     },
+
+    {
+      title: "Wallpapers for mobile phone",
+      techStack: ["Python","Django", "Design", "HTML", "CSS", "JavaScript", "SASS", 'Pet-project'],
+      description:
+        "My pet project featuring a collection of phone wallpapers, automatically sourced using a parser. Built with Python/Django, it offers a simple, user-friendly platform for finding and downloading wallpapers.",
+      logo: '',
+      link: {
+        label: "wallpapersmob.com",
+        href: "https://www.wallpapersmob.com",
+      },
+    },
+
+    
     // {
     //   title: "Minimal",
     //   techStack: ["Side Project", "Next.js", "Puppeteer"],
