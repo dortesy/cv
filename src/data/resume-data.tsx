@@ -22,8 +22,8 @@ import { XIcon } from "../components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Sherzod Saidmaksumov",
   initials: "SS",
-  location: "Brooklyn, NY, USA",
-  locationLink: "https://www.google.com/maps/place/Brooklyn,+NY/",
+  location: "New York, USA",
+  locationLink: "https://www.google.com/maps/place/New+York,+NY/",
   about:
     "Full Stack Web Developer specializing in developing interactive, responsive websites",
   summary:
@@ -88,10 +88,10 @@ export const RESUME_DATA = {
       badges: [],
       title: "Web Developer",
       logo: '',
-      start: "2015",
+      start: "2014",
       end: "2017",
       description:
-        "Developed websites using HTML, CSS, JavaScript, PHP. Focused on SEO optimization, web design, WordPress theme and plugin development.",
+        "Developed websites using HTML, CSS, JavaScript, PHP. Focused on Search Engine Optimization, web design, WordPress theme and plugin development.",
     },
   ],
   skills: [
@@ -190,6 +190,20 @@ export const RESUME_DATA = {
         href: "https://www.wallpapersmob.com",
       },
     },
+
+    {
+      title: "International Music Competition Website",
+      techStack: ["Bootstrap", "PHP", "LESS", "JavaScript", "HTML", "CSS"],
+      description:
+        "Grunewald-Competition.com: A custom-designed website for an international music competition. Tailored to the client's specifications, I extensively modified Bootstrap and added new features like multilingual support. Utilized LESS preprocessor and developed a registration script in PHP with email confirmations for both site administrators and participants.",
+      logo: '',
+      link: {
+        label: "grunewald-competition.com",
+        href: "https://grunewald-competition.com",
+      },
+    },
+
+
 
     {
       title: "Personal website for music artist",
