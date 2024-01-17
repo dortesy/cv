@@ -62,7 +62,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Blackmore Music Group",
-      link: "https://blackmoremusicgroup.com",
+      link: "http://blackmore-music-group.com/",
       badges: ["Remote"],
       title: "Full Stack Web Developer",
       logo: '',
