@@ -22,8 +22,8 @@ import { XIcon } from "../components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Sherzod Saidmaksumov",
   initials: "SS",
-  location: "New York, USA",
-  locationLink: "https://www.google.com/maps/place/New+York,+NY/",
+  location: "Saint Petersburg, FL, USA",
+  locationLink: "https://www.google.com/maps/place/Saint+Petersburg,+FL/",
   about:
     "Full Stack Web Developer specializing in developing interactive, responsive websites",
   summary:
