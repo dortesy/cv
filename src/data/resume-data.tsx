@@ -180,14 +180,14 @@ export const RESUME_DATA = {
     },
 
     {
-      title: "Wallpapers for mobile phone",
+      title: "Website with free photos",
       techStack: ["Python","Django", "Design", "HTML", "CSS", "JavaScript", "SASS", 'Pet-project'],
       description:
-        "My pet project featuring a collection of phone wallpapers, automatically sourced using a parser. Built with Python/Django, it offers a simple, user-friendly platform for finding and downloading wallpapers.",
+        "My pet project featuring a collection of photos, automatically sourced using a parser. Built with Python/Django, it offers a simple, user-friendly platform for finding and downloading photos.",
       logo: '',
       link: {
-        label: "wallpapersmob.com",
-        href: "https://www.wallpapersmob.com",
+        label: "pictozone.com",
+        href: "https://www.pictozone.com",
       },
     },
 
