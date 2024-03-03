@@ -100,12 +100,17 @@ export const RESUME_DATA = {
     "PHP",
     "JavaScript",
     "HTML & CSS",
+    "SASS",
     "WordPress",
     "Laravel",
     "FastAPI",
     "Flask",
     "SQL",
     "Linux",
+    "Search Engine Optimization",
+    "Gulp",
+    "Adobe Photoshop/Illustrator/Indesign",
+    "Figma"
   ],
   projects: [
     {
@@ -214,6 +219,19 @@ export const RESUME_DATA = {
       link: {
         label: "heesookahn.net",
         href: "http://heesookahn.net/de/",
+      },
+    },
+
+
+    {
+      title: "Anna Savkina - Violinist Personal Website",
+      techStack: ["HTML", "CSS", "SASS", 'Gulp'],
+      description:
+        "Simple Personal website for violinist Anna Savkina, created from scratch using HTML&CSS",
+      logo: '',
+      link: {
+        label: "anna-savkina.com",
+        href: "http://anna-savkina.com/",
       },
     },
 
