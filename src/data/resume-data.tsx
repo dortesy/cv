@@ -109,7 +109,7 @@ export const RESUME_DATA = {
     "Linux",
     "Search Engine Optimization",
     "Gulp",
-    "Adobe Photoshop/Illustrator/Indesign",
+    "Photoshop/Illustrator/Indesign",
     "Figma"
   ],
   projects: [
@@ -141,7 +141,7 @@ export const RESUME_DATA = {
         "WooCommerce",
         "Design"
       ],
-      description: "WordPress-based learning website for music masterclasses with WooCommerce functionality.",
+      description: "The Blackmore Music Academy website features a similar technology stack to the concert hall site but with the notable addition of being designed by me. It incorporates a heavily customized WooCommerce plugin tailored to the client's requirements, enabling a sophisticated booking system for masterclasses. This customization provides extensive functionality to meet the specific needs of the academy, ensuring a seamless and user-friendly booking experience.",
       logo: ConsultlyLogo,
       link: {
         label: "blackmore-academy.com",
