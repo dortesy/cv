@@ -114,6 +114,23 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "BLACKMORE'S – Berlins Musikzimmer",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "PHP",
+      ],
+      description: "The website is for BLACKMORE'S – Berlins Musikzimmer, a concert hall in Berlin. It was custom-built from a provided design using WordPress as the backend, supplemented with extensive custom coding and fields. Key features include a custom concert system, custom search functionality, a calendar, and masterclasses pulled from another site via a MySQL database. The site also supports multiple languages and is responsive, ensuring it works well across different devices and screen sizes.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "2023.blackmores-musikzimmer.de",
+        href: "https://musikzimmer:2023bmz@2023.blackmores-musikzimmer.de/",
+      },
+    },
+
+    {
       title: "Blackmore International Мusic Academy",
       techStack: [
         "HTML",
