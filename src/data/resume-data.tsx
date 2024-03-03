@@ -170,6 +170,24 @@ export const RESUME_DATA = {
     },
 
 
+    {
+      title: "International Music Festival Buchenau",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "PHP",
+      ],
+      description: "For the International Music Festival Buchenau website, I designed and developed it from scratch, handling everything from the design to the coding in HTML & CSS, and ultimately integrating it with WordPress",
+      logo: ConsultlyLogo,
+      link: {
+        label: "new.festival-buchenau.com",
+        href: "https://blackmore:222145@new.festival-buchenau.com/",
+      },
+    },
+
+
 
 
     {
