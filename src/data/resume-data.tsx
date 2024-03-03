@@ -161,7 +161,7 @@ export const RESUME_DATA = {
         "SASS",
         'Pet-project'
       ],
-      description: "Website I built from scratch for online book reading, featuring snippets of books for free. Designed and coded using HTML, CSS, JavaScript, and Python/Django, it includes user registration, dark/light mode toggle, and a reading interface.",
+      description: "Website I built from scratch for online book reading, featuring snippets of books for free. Designed and coded using HTML, CSS, JavaScript, and Python/Django, it includes user registration, dark/light mode toggle, and a reading interface. I added the capability to quickly and easily add any books by simply uploading them in FB2 format through the Django admin panel.",
       logo: ConsultlyLogo,
       link: {
         label: "kelebooks.com",
