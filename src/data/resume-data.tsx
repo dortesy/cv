@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2023",
       description:
-        "As the sole web developer, I specialized in creating and managing websites from concept to launch, using HTML, CSS, JavaScript, and PHP. My expertise included developing custom WordPress themes, integrating WooCommerce for e-commerce functionality, and handling Python-based web crawling and content management.",
+        "As the sole web developer, I specialized in creating and managing websites from concept to launch, using HTML, CSS, JavaScript, and PHP. My expertise included developing custom WordPress themes, integrating WooCommerce for e-commerce functionality.",
     },
     {
       company: "Сreativemade",
@@ -252,7 +252,7 @@ export const RESUME_DATA = {
       logo: '',
       link: {
         label: "Blackmore Instruments",
-        href: "http://new.blackmore-instruments.com",
+        href: "http://admin:09876@new.blackmore-instruments.com",
       },
     },
 
