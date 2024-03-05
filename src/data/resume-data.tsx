@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Web Developer",
   summary:
-    "Developer with over five years of experience, skilled in HTML, CSS, JavaScript, and PHP. Proficient in WordPress and Python frameworks like Django, I specialize in the full development cycle from concept to deployment, focusing on delivering efficient and effective web solutions.",
+    "Developer with over 6 years of experience, skilled in HTML, CSS, JavaScript, and PHP. Proficient in WordPress and Python frameworks like Django, I specialize in the full development cycle from concept to deployment, focusing on delivering efficient and effective web solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/119113734?v=4",
   personalWebsiteUrl: "https://sherzod.dev",
   contact: {
