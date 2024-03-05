@@ -264,7 +264,7 @@ export const RESUME_DATA = {
       logo: '',
       link: {
         label: "hartmutrohde.com",
-        href: "https://hartmutrohde.com",
+        href: "https://admin:09876@hartmutrohde.com",
       },
     },
 
