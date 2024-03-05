@@ -178,6 +178,7 @@ export const RESUME_DATA = {
         "JavaScript",
         "WordPress",
         "PHP",
+        'Design'
       ],
       description: "For the International Music Festival Buchenau website, I designed and developed it from scratch, handling everything from the design to the coding in HTML & CSS, and ultimately integrating it with WordPress",
       logo: ConsultlyLogo,
@@ -221,7 +222,7 @@ export const RESUME_DATA = {
 
     {
       title: "Website with free photos",
-      techStack: ["Python","Django", "Design", "HTML", "CSS", "JavaScript", "SASS", 'Pet-project'],
+      techStack: ["Python","Django", "Design", "HTML", "CSS", "JavaScript", "SASS", 'Pet-project','Design'],
       description:
         "My pet project featuring a collection of photos, automatically sourced using a parser. Built with Python/Django, it offers a simple, user-friendly platform for finding and downloading photos.",
       logo: '',
@@ -243,11 +244,33 @@ export const RESUME_DATA = {
       },
     },
 
-
+    {
+      title: "Blackmore Stringed Instruments - Wordpress website",
+      techStack: ["Wordpress", "HTML", "CSS", "JavaScript", "SASS", 'Design'],
+      description:
+        "Made a new version for website, created from scratch using Wordpress",
+      logo: '',
+      link: {
+        label: "Blackmore Instruments",
+        href: "http://new.blackmore-instruments.com",
+      },
+    },
 
     {
-      title: "Personal website for music artist",
-      techStack: ["Wordpress", "HTML", "CSS", "JavaScript", "SASS",],
+      title: "Hartmut Rohde - Personal website",
+      techStack: ["Wordpress", "HTML", "CSS", "JavaScript", "SASS", 'Design'],
+      description:
+        "Personal website for music artist Hartmut Rohde, created from scratch using wordpress, gulp/sass",
+      logo: '',
+      link: {
+        label: "hartmutrohde.com",
+        href: "https://hartmutrohde.com",
+      },
+    },
+
+    {
+      title: "Heesook Ahn Personal website",
+      techStack: ["Wordpress", "HTML", "CSS", "JavaScript", "SASS", 'Design'],
       description:
         "Personal website for music artist Heesook Ahn, created from scratch using wordpress, gulp/sass",
       logo: '',
@@ -260,7 +283,7 @@ export const RESUME_DATA = {
 
     {
       title: "Anna Savkina - Violinist Personal Website",
-      techStack: ["HTML", "CSS", "SASS", 'Gulp'],
+      techStack: ["HTML", "CSS", "SASS", 'Gulp', 'Design'],
       description:
         "Simple Personal website for violinist Anna Savkina, created from scratch using HTML&CSS",
       logo: '',
@@ -269,6 +292,9 @@ export const RESUME_DATA = {
         href: "http://anna-savkina.com/",
       },
     },
+
+
+
 
 
 
