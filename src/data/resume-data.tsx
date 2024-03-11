@@ -18,6 +18,7 @@ import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
+import { PdfIcon } from "../components/icons/PdfIcon";
 
 export const RESUME_DATA = {
   name: "Sherzod Saidmaksumov",
@@ -46,9 +47,15 @@ export const RESUME_DATA = {
       },
       {
         name: "PersonalWebsiteIcon",
-        url: "https://x.com/SherzodDev",
+        url: "https://x.com/sherzod_on",
         icon: XIcon,
       },
+      {
+        name: "CV",
+        url: "/cv.pdf",
+        icon: PdfIcon,
+      },
+
     ],
   },
   education: [
