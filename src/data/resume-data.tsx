@@ -11,11 +11,12 @@ export const RESUME_DATA = {
   about:
     "Web Developer",
   summary:
-    "• Web Developer with 3 years of experience, specializing in creating compelling user interfaces utilizing JavaScript, HTML, CSS, React, and Next.js and WordPress.\n" +
-    "• Coded 10 major websites by transforming high-fidelity designs into fully functional, scalable web platforms.\n" +
-    "• Enhanced Website Performance: Achieved an 80% reduction in load times by strategically upgrading technology and refining coding practices, resulting in smoother user experiences.\n" +
-    "• Increased web traffic by 50 percent through SEO enhancements and technical optimizations\n" +
-    "• Engineered a WordPress dashboard plugin for an educational portal, integrating a database of over 100,000 schools and professionals. ",
+`
+• Web Developer with 3 years of experience, specializing in creating compelling user interfaces utilizing JavaScript, HTML, CSS, React, and Next.js and WordPress.
+• Coded 10 major websites by transforming high-fidelity designs into fully functional, scalable web platforms.
+• Enhanced Website Performance: Achieved an 80% reduction in load times by strategically upgrading technology and refining coding practices, resulting in smoother user experiences.
+• Increased web traffic by 50 percent through SEO enhancements and technical optimization.
+• Engineered a WordPress dashboard plugin for an educational portal, integrating a database of over 100,000 schools and professionals.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/119113734?v=4",
   personalWebsiteUrl: "https://sherzod.dev",
   contact: {
@@ -38,8 +39,8 @@ export const RESUME_DATA = {
         icon: XIcon,
       },
       {
-        name: "CV",
-        url: "/resume-sherzod.pdf",
+        name: "Resume",
+        url: "/resume.pdf",
         icon: PdfIcon,
       },
 
@@ -50,7 +51,7 @@ export const RESUME_DATA = {
       school: "Tashkent University of Information Technologies",
       degree: "Bachelor's Degree in Computer Science",
       start: "2021",
-      end: "2026",
+      end: "Present",
     },
 
     {
