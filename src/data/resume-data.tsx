@@ -1,20 +1,3 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
@@ -26,13 +9,17 @@ export const RESUME_DATA = {
   location: "Saint Petersburg, FL, USA",
   locationLink: "https://www.google.com/maps/place/Saint+Petersburg,+FL/",
   about:
-    "Full Stack Web Developer",
+    "Web Developer",
   summary:
-    "Developer with over 6 years of experience, skilled in HTML, CSS, JavaScript, and PHP. Proficient in WordPress and Python frameworks like Django, I specialize in the full development cycle from concept to deployment, focusing on delivering efficient and effective web solutions.",
+    "• Web Developer with 3 years of experience, specializing in creating compelling user interfaces utilizing JavaScript, HTML, CSS, React, and Next.js and WordPress.\n" +
+    "• Coded 10 major websites by transforming high-fidelity designs into fully functional, scalable web platforms.\n" +
+    "• Enhanced Website Performance: Achieved an 80% reduction in load times by strategically upgrading technology and refining coding practices, resulting in smoother user experiences.\n" +
+    "• Increased web traffic by 50 percent through SEO enhancements and technical optimizations\n" +
+    "• Engineered a WordPress dashboard plugin for an educational portal, integrating a database of over 100,000 schools and professionals. ",
   avatarUrl: "https://avatars.githubusercontent.com/u/119113734?v=4",
   personalWebsiteUrl: "https://sherzod.dev",
   contact: {
-    email: "contact@sherzod.dev",
+    email: "sherzod.saidmaksumov@gmail.com",
     tel: "+13322702902",
     social: [
       {
@@ -52,7 +39,7 @@ export const RESUME_DATA = {
       },
       {
         name: "CV",
-        url: "/cv.pdf",
+        url: "/resume-sherzod.pdf",
         icon: PdfIcon,
       },
 
@@ -60,8 +47,15 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Tashkent University of Information Technologies",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2021",
+      end: "2026",
+    },
+
+    {
       school: "Mirzo-Ulugbek Professional College of Computer Science",
-      degree: "Information Systems and Technology",
+      degree: "Vocational School Diploma in Information Systems and Technology",
       start: "2014",
       end: "2017",
     },
@@ -73,42 +67,40 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Full Stack Web Developer",
       logo: '',
-      start: "2018",
+      start: "2021",
       end: "2023",
       description:
-        "As the sole web developer, I specialized in creating and managing websites from concept to launch, using HTML, CSS, JavaScript, and PHP. My expertise included developing custom WordPress themes, integrating WooCommerce for e-commerce functionality.",
+        "• Developed 10 web projects, including 4 event ticketing and workshop registration sites utilizing WooCommerce, 1 educational portal, and 5 personal websites for artists, leveraging JavaScript, HTML, CSS, WordPress, React, and Next.js\n" +
+        "• Redesigned back-end systems with WordPress for 3 projects, enhancing system stability and reducing average server response times from 1100ms to 600ms.\n" +
+        "• Launched a bilingual event website with registration functionality under a tight one-week deadline. Engineered a form, processing 50 daily registrations.\n" +
+        "• Constructed a WordPress dashboard for educational portal, integrating databases for schools and professionals. Facilitated user-driven content management, including personal and company profiles, job applications, and class registrations. \n" +
+        "• Revamped both internal and external optimizations to the site, enhancing SEO practices and streamlining performance features, which led to a 50% increase in web traffic and improved user engagement metrics.",
     },
     {
       company: "Сreativemade",
       link: "https://creativemade.ru",
       badges: ["Remote"],
-      title: "HTML & CSS Developer",
+      title: "Frontend Developer",
       logo: '',
-      start: "2017",
-      end: "2018",
+      start: "2020",
+      end: "2021",
       description:
-        "Developed websites from mockups using HTML, CSS, JavaScript. Ensured cross-browser compatibility and mobile responsiveness.",
-    },
-    {
-      company: "Freelance",
-      link: "#",
-      badges: [],
-      title: "Web Developer",
-      logo: '',
-      start: "2014",
-      end: "2017",
-      description:
-        "Developed websites using HTML, CSS, JavaScript, PHP. Focused on Search Engine Optimization, web design, WordPress theme and plugin development.",
+        "• Engineered 7 diverse web pages from Figma designs, utilizing semantic HTML markup, efficient CSS methodologies, and optimized JavaScript to ensure pixel-perfect, cross-browser compatibility and enhanced user experience\n" +
+        "• Built a WordPress website with advanced animations and UI elements, optimizing performance to achieve a 95+ PageSpeed Insights score on both mobile and desktop.\n" +
+        "• Spearheaded the optimization of high-performance landing pages, using advanced JavaScript and jQuery, which doubled client engagement and increased conversion rates by 25%.\n" +
+        "• Developed backend APIs with WordPress, enhancing functionality and responsiveness, which improved overall website performance by 60%.",
     },
   ],
   skills: [
-    "Python",
-    "Django",
-    "PHP",
     "JavaScript",
     "HTML & CSS",
-    "SASS",
     "WordPress",
+    "PHP",
+    "React",
+    "Next.js",
+    "Python",
+    "Django",
+    "SASS",
     "Laravel",
     "FastAPI",
     "Flask",
@@ -117,7 +109,10 @@ export const RESUME_DATA = {
     "Search Engine Optimization",
     "Gulp",
     "Photoshop/Illustrator/Indesign",
-    "Figma"
+    "Figma",
+    "Git",
+    "GitHub",
+    "Linux",
   ],
   projects: [
     {
@@ -130,7 +125,6 @@ export const RESUME_DATA = {
         "PHP",
       ],
       description: "The website is for BLACKMORE'S – Berlins Musikzimmer, a concert hall in Berlin. It was custom-built from a provided design using WordPress as the backend, supplemented with extensive custom coding and fields. Key features include a custom concert system, custom search functionality, a calendar, and masterclasses pulled from another site via a MySQL database. The site also supports multiple languages and is responsive, ensuring it works well across different devices and screen sizes.",
-      logo: ConsultlyLogo,
       link: {
         label: "2023.blackmores-musikzimmer.de",
         href: "https://musikzimmer:2023bmz@2023.blackmores-musikzimmer.de/",
@@ -149,7 +143,6 @@ export const RESUME_DATA = {
         "Design"
       ],
       description: "The Blackmore Music Academy website features a similar technology stack to the concert hall site but with the notable addition of being designed by me. It incorporates a heavily customized WooCommerce plugin tailored to the client's requirements, enabling a sophisticated booking system for masterclasses. This customization provides extensive functionality to meet the specific needs of the academy, ensuring a seamless and user-friendly booking experience.",
-      logo: ConsultlyLogo,
       link: {
         label: "blackmore-academy.com",
         href: "https://blackmore-academy.com/",
@@ -169,7 +162,6 @@ export const RESUME_DATA = {
         'Pet-project'
       ],
       description: "Website I built from scratch for online book reading, featuring snippets of books for free. Designed and coded using HTML, CSS, JavaScript, and Python/Django, it includes user registration, dark/light mode toggle, and a reading interface. I added the capability to quickly and easily add any books by simply uploading them in FB2 format through the Django admin panel.",
-      logo: ConsultlyLogo,
       link: {
         label: "kelebooks.com",
         href: "https://kelebooks.com/",
@@ -188,7 +180,6 @@ export const RESUME_DATA = {
         'Design'
       ],
       description: "For the International Music Festival Buchenau website, I designed and developed it from scratch, handling everything from the design to the coding in HTML & CSS, and ultimately integrating it with WordPress",
-      logo: ConsultlyLogo,
       link: {
         label: "new.festival-buchenau.com",
         href: "https://blackmore:222145@new.festival-buchenau.com/",
@@ -209,7 +200,6 @@ export const RESUME_DATA = {
       ],
       description:
         "Custom-designed WordPress site for Geringas Chamber Orchestra, HTML, CSS, JavaScript development.",
-      logo: MonitoLogo,
       link: {
         label: "Geringas-chamber-orchestra.de",
         href: "https://geringas-chamber-orchestra.de/",
