@@ -117,6 +117,21 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Webinarium - Learning Management System (in progress)",
+      techStack: [
+        "Next.js 14 (Full-stack)",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma",
+        "Next-auth (Auth.js)",
+      ],
+      description: "Webinarium is built using the powerful Next.js 14 framework, leveraging its full-stack capabilities to deliver a seamless user experience. We employ next-auth for robust authentication processes, Prisma for object-relational mapping, and zod for schema validation, ensuring that our platform stands on a foundation of reliable and secure technologies.",
+      link: {
+        label: "Webinarium github",
+        href: "https://github.com/dortesy/webinarium-lms",
+      },
+    },
+    {
       title: "BLACKMORE'S – Berlins Musikzimmer",
       techStack: [
         "HTML",
