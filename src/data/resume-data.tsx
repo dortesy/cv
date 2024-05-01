@@ -13,10 +13,10 @@ export const RESUME_DATA = {
   summary:
 `
 • Web Developer with 3 years of experience, specializing in creating compelling user interfaces utilizing JavaScript, HTML, CSS, React, and Next.js and WordPress.
-• Coded 10 major websites by transforming high-fidelity designs into fully functional, scalable web platforms.
+• Coded 17 major websites by transforming high-fidelity designs into fully functional, scalable web platforms using frontend and backend technologies WordPress REST API, Python/Django, PHP/Laravel.
 • Enhanced Website Performance: Achieved an 80% reduction in load times by strategically upgrading technology and refining coding practices, resulting in smoother user experiences.
 • Increased web traffic by 50 percent through SEO enhancements and technical optimization.
-• Engineered a WordPress dashboard plugin for an educational portal, integrating a database of over 100,000 schools and professionals.`,
+• Engineered a WordPress dashboard plugin featuring a profile system with over a hundred detailed, customizable input fields tailored for music students and educators.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/119113734?v=4",
   personalWebsiteUrl: "https://sherzod.dev",
   contact: {
@@ -56,9 +56,9 @@ export const RESUME_DATA = {
 
     {
       school: "Mirzo-Ulugbek Professional College of Computer Science",
-      degree: "Vocational School Diploma in Information Systems and Technology",
-      start: "2014",
-      end: "2017",
+      degree: "Associate Degree in Information Systems and Technology",
+      start: "2011",
+      end: "2014",
     },
   ],
   work: [
@@ -89,7 +89,7 @@ export const RESUME_DATA = {
         "• Engineered 7 diverse web pages from Figma designs, utilizing semantic HTML markup, efficient CSS methodologies, and optimized JavaScript to ensure pixel-perfect, cross-browser compatibility and enhanced user experience\n" +
         "• Built a WordPress website with advanced animations and UI elements, optimizing performance to achieve a 95+ PageSpeed Insights score on both mobile and desktop.\n" +
         "• Spearheaded the optimization of high-performance landing pages, using advanced JavaScript and jQuery, which doubled client engagement and increased conversion rates by 25%.\n" +
-        "• Developed backend APIs with WordPress, enhancing functionality and responsiveness, which improved overall website performance by 60%.",
+        "• Streamlined front-end interactivity by integrating WordPress APIs, reducing page load times by 30% and increasing user session duration by 25%.",
     },
   ],
   skills: [
@@ -306,132 +306,5 @@ export const RESUME_DATA = {
       },
     },
 
-
-
-
-
-
-    
-    // {
-    //   title: "Minimal",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Minimalist calendars, habit trackers and planners generator",
-    //   logo: Minimal,
-    //   link: {
-    //     label: "useminimal.com",
-    //     href: "https://useminimal.com/",
-    //   },
-    // },
-    // {
-    //   title: "Barepapers",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Generates beautiful wallpapers using random shapes and gradients",
-    //   logo: BarepapersLogo,
-    //   link: {
-    //     label: "barepapers.com",
-    //     href: "https://barepapers.com/",
-    //   },
-    // },
-    // {
-    //   title: "Year progress",
-    //   techStack: ["Side Project", "TypeScript", "Next.js"],
-    //   description: "Tracks current year progress and displays a countdown",
-    //   logo: YearProgressLogo,
-    //   link: {
-    //     label: "getyearprogress.com",
-    //     href: "https://getyearprogress.com/",
-    //   },
-    // },
-    // {
-    //   title: "Parabol",
-    //   techStack: [
-    //     "Full Stack Developer",
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "The Agile meeting co-pilot that delivers better meetings with less effort",
-    //   logo: ParabolLogo,
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://parabol.co/",
-    //   },
-    // },
-    // {
-    //   title: "Evercast",
-    //   techStack: [
-    //     "Lead Frontend Developer",
-
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "Creative collaboration platform that combines video conferencing and HD media streaming",
-    //   logo: EvercastLogo,
-    //   link: {
-    //     label: "evercast.us",
-    //     href: "https://www.evercast.us/",
-    //   },
-    // },
-    // {
-    //   title: "Mobile Vikings",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for leading virtual mobile operator in Poland",
-    //   logo: MobileVikingsLogo,
-    //   link: {
-    //     label: "mobilevikings.pl",
-    //     href: "https://mobilevikings.pl/",
-    //   },
-    // },
-    // {
-    //   title: "Howdy",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Howdy is a place for you to join communities you care about",
-    //   logo: Howdy,
-    //   link: {
-    //     label: "play.google.com",
-    //     href: "https://howdy.co/",
-    //   },
-    // },
-    // {
-    //   title: "Tastycloud",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for managing and displaying restaurant menus in kiosk mode",
-    //   logo: TastyCloudLogo,
-    //   link: {
-    //     label: "tastycloud.fr",
-    //     href: "https://www.tastycloud.fr/",
-    //   },
-    // },
-    // {
-    //   title: "Ambit",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with sharing your contact details",
-    //   logo: AmbitLogo,
-    // },
-    // {
-    //   title: "Bim",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with booking a table in a restaurants",
-    //   logo: BimLogo,
-    // },
-    // {
-    //   title: "Canal Digital GO",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Video streaming mobile application for Canal Digital subscribers",
-    //   logo: CDGOLogo,
-    // },
   ],
 } as const;
