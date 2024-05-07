@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       description:
         "• Developed 10 web projects, including 4 event ticketing and workshop registration sites utilizing WooCommerce, 1 educational portal, and 5 personal websites for artists, leveraging JavaScript, HTML, CSS, WordPress, React, and Next.js\n" +
         "• Redesigned back-end systems with WordPress for 3 projects, enhancing system stability and reducing average server response times from 1100ms to 600ms.\n" +
-        "• Launched a bilingual event website with registration functionality under a tight one-week deadline. Engineered a form, processing 50 daily registrations.\n" +
+        "• Launched a bilingual event website with registration functionality under a tight one-week deadline. Engineered a form, processing 100 daily registrations.\n" +
         "• Constructed a WordPress dashboard for educational portal, integrating databases for schools and professionals. Facilitated user-driven content management, including personal and company profiles, job applications, and class registrations. \n" +
         "• Revamped both internal and external optimizations to the site, enhancing SEO practices and streamlining performance features, which led to a 50% increase in web traffic and improved user engagement metrics.",
     },
