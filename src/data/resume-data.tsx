@@ -246,6 +246,19 @@ export const RESUME_DATA = {
     },
 
     {
+      title: "Wallpapers for phone",
+      techStack: ["PHP","Laravel", "Design", "HTML", "CSS", "JavaScript", "SASS", 'Pet-project'],
+      description:
+        "My pet project featuring a collection of wallpapers, automatically parsing images from open sources. Built with PHP/Laravel, it offers a simple, user-friendly platform for finding and downloading wallpapers.",
+      logo: '',
+      link: {
+        label: "oboi-telefon.ru",
+        href: "https://www.oboi-telefon.ru",
+      },
+    },
+
+
+    {
       title: "International Music Competition Website",
       techStack: ["Bootstrap", "PHP", "LESS", "JavaScript", "HTML", "CSS"],
       description:
