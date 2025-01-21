@@ -9,14 +9,10 @@ export const RESUME_DATA = {
   location: "Saint Petersburg, FL, USA",
   locationLink: "https://www.google.com/maps/place/Saint+Petersburg,+FL/",
   about:
-    "Web Developer",
+    "Full Stack Developer",
   summary:
 `
-• Web Developer with 3 years of experience, specializing in creating compelling user interfaces utilizing JavaScript, HTML, CSS, React, and Next.js and WordPress.
-• Coded 17 major websites by transforming high-fidelity designs into fully functional, scalable web platforms using frontend and backend technologies WordPress REST API, Python/Django, PHP/Laravel.
-• Enhanced Website Performance: Achieved an 80% reduction in load times by strategically upgrading technology and refining coding practices, resulting in smoother user experiences.
-• Increased web traffic by 50 percent through SEO enhancements and technical optimization.
-• Engineered a WordPress dashboard plugin featuring a profile system with over a hundred detailed, customizable input fields tailored for music students and educators.`,
+Full Stack Developer with 5+ years of experience delivering high-performance, scalable web applications with a strong emphasis on user experience and modern design. Successfully built and deployed complex projects like Webinarium, an high-performance e-learning platform, and HandTextAI, an innovative tool for generating realistic handwritten documents. Proficient in a diverse tech stack, including JavaScript, React, Next.js, Node.js, PHP, Python, Django, and HTML/CSS, with a proven ability to integrate cutting-edge technologies to solve real-world problems. Skilled in optimizing performance and crafting responsive, user-friendly interfaces for a seamless web experience.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/119113734?v=4",
   personalWebsiteUrl: "https://sherzod.dev",
   contact: {
@@ -63,13 +59,28 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: 'Webinarium',
+      link: 'https://webinarium.uz/',
+      badges: ['Hybrid'],
+      title: 'Full Stack Web Developer',
+      logo: '',
+      start: '2024',
+      end: 'Present',
+      description:
+        '• Architected and launched an enterprise-grade e-learning platform using Next.js 14, NestJS, and PostgreSQL, implementing a monorepo structure that reduced deployment time by 40%.\n' +
+        '• Engineered a type-safe contract-first API system using ts-rest and Prisma ORM, resulting in zero runtime type errors and 30% faster development cycles.\n' +
+        '• Developed a secure authentication system supporting JWT and OAuth2.0, handling 10,000+ user sessions with automated token rotation and device tracking.\n' +
+        '• Built a scalable course management system with real-time video processing capabilities, supporting multiple file formats and concurrent uploads.\n' +
+        '• Led technical decision-making and implementation of core platform features including internationalization, payment processing, and content delivery optimization.',
+    },
+    {
       company: "Blackmore Music Group",
       link: "http://blackmore-music-group.com/",
       badges: ["Remote"],
       title: "Full Stack Web Developer",
       logo: '',
       start: "2021",
-      end: "2023",
+      end: "Present",
       description:
         "• Developed 10 web projects, including 4 event ticketing and workshop registration sites utilizing WooCommerce, 1 educational portal, and 5 personal websites for artists, leveraging JavaScript, HTML, CSS, WordPress, React, and Next.js\n" +
         "• Redesigned back-end systems with WordPress for 3 projects, enhancing system stability and reducing average server response times from 1100ms to 600ms.\n" +
@@ -91,31 +102,73 @@ export const RESUME_DATA = {
         "• Spearheaded the optimization of high-performance landing pages, using advanced JavaScript and jQuery, which doubled client engagement and increased conversion rates by 25%.\n" +
         "• Streamlined front-end interactivity by integrating WordPress APIs, reducing page load times by 30% and increasing user session duration by 25%.",
     },
+
+    {
+      company: 'Freelancer',
+      link: '*',
+      badges: ['Remote'],
+      title: 'Full Stack Web Developer',
+      logo: '',
+      start: '2018',
+      end: '2020',
+      description: [
+        "• Developed custom WordPress themes and plugins using PHP, JavaScript, and MySQL to meet diverse client needs, including e-commerce, educational platforms, and multilingual websites.\n" +
+        "• Optimized websites for performance and SEO using tools like Rank Math and best practices in web development, achieving improved loading speeds and higher search engine rankings.\n" +
+        "• Built dynamic, user-friendly interfaces with HTML5, CSS3, and JavaScript frameworks such as React and jQuery, ensuring responsive design and cross-browser compatibility.\n" +
+        "• Implemented advanced functionalities like booking systems, event calendars, AJAX-powered forms, and API integrations to enhance user experience and functionality."
+      ]
+    },
   ],
   skills: [
     "JavaScript",
+    "Node.js",
+    "Next.js",
+    "React",
+    'Nestjs',
+    "FastAPI",
     "HTML & CSS",
     "WordPress",
     "PHP",
-    "React",
-    "Next.js",
     "Python",
-    "Django",
     "SASS",
     "Laravel",
-    "FastAPI",
-    "Flask",
     "SQL",
     "Linux",
-    "Search Engine Optimization",
-    "Gulp",
-    "Photoshop/Illustrator/Indesign",
-    "Figma",
     "Git",
-    "GitHub",
     "Linux",
   ],
   projects: [
+    {
+      "title": "HandTextAI – Realistic Handwriting Generator",
+      "techStack": [
+        "Python",
+        "Django",
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "description": "HandTextAI is an innovative web application that converts typed text into realistic handwritten pages. It allows users to create custom fonts from their handwriting, supports detailed page settings, and integrates advanced features such as dynamic text effects and realistic textures. The project leverages modern technologies like Django for the backend, React and Next.js for the frontend, and PostgreSQL for data storage. The application is optimized for performance and scalability, ensuring a seamless user experience across devices.",
+      "link": {
+        "label": "handtextai.com",
+        "href": "https://handtextai.com"
+      }
+    },
+    {
+      "title": "Tatjana Vassiljeva – Official Website",
+      "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "description": "Developed a professional website for internationally acclaimed cellist Tatjana Vassiljeva. The website features a dynamic calendar for events, discography, photo and video galleries, a biography section, and a contact form. Built with Next.js and Tailwind CSS, the site delivers a seamless, responsive experience across devices. Leveraged TypeScript for robust and maintainable code, ensuring high performance and scalability.",
+      "link": {
+        "label": "tatjanavassiljeva.com",
+        "href": "https://tatjanavassiljeva.com"
+      }
+    },
+
     {
       title: "Webinarium - Learning Management System (in progress)",
       techStack: [
@@ -166,25 +219,66 @@ export const RESUME_DATA = {
     },
 
     {
-      title: "Read books online",
-      techStack: [
-        "Python",
-        "Django",
-        "Design",
-        "HTML",
-        "CSS",
+      "title": "David Geringas – Official Website",
+      "techStack": [
+        "WordPress",
+        "PHP",
+        "MySQL",
         "JavaScript",
-        "SASS",
-        'Pet-project'
+        "HTML",
+        "CSS"
       ],
-      description: "Website I built from scratch for online book reading, featuring snippets of books for free. Designed and coded using HTML, CSS, JavaScript, and Python/Django, it includes user registration, dark/light mode toggle, and a reading interface. I added the capability to quickly and easily add any books by simply uploading them in FB2 format through the Django admin panel.",
-      link: {
-        label: "kelebooks.com",
-        href: "https://kelebooks.com/",
-      },
+      "description": "Developed the official website for renowned Lithuanian cellist and conductor David Geringas. The site offers comprehensive information, including his biography, news updates, master classes, event schedules, press reviews, and a media gallery featuring videos and photos. Built on the WordPress platform, the website ensures easy content management and a responsive design, providing an optimal user experience across various devices.",
+      "link": {
+        "label": "geringas.de",
+        "href": "https://geringas.de"
+      }
     },
 
 
+    {
+      title: "International Music Competition Website",
+      techStack: ["Bootstrap", "PHP", "LESS", "JavaScript", "HTML", "CSS"],
+      description:
+        "Grunewald-Competition.com: A custom-designed website for an international music competition. Tailored to the client's specifications, I extensively modified Bootstrap and added new features like multilingual support. Utilized LESS preprocessor and developed a registration script in PHP with email confirmations for both site administrators and participants.",
+      logo: '',
+      link: {
+        label: "grunewald-competition.com",
+        href: "https://grunewald-competition.com",
+      },
+    },
+
+    {
+      "title": "Book Library App",
+      "techStack": [
+        "Flutter",
+        "Firebase",
+        "Open Library API",
+        "Google Books API"
+      ],
+      "description": "Developed a cross-platform mobile application for an online book library using Flutter. The app features user authentication with Firebase, integration with Open Library and Google Books APIs for book search and previews, and a personalized library stored in Firestore. Users can register, search for books, view detailed information, and save books to their library. The app was designed for performance and seamless user experience.",
+      "link": {
+        "label": "GitHub Repository",
+        "href": "https://github.com/dortesy/book_library"
+      }
+    },
+
+    {
+      title: "Geringas Chamber Orchestra",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "Design"
+      ],
+      description:
+        "Custom-designed WordPress site for Geringas Chamber Orchestra, HTML, CSS, JavaScript development.",
+      link: {
+        label: "Geringas-chamber-orchestra.de",
+        href: "https://geringas-chamber-orchestra.de/",
+      },
+    },
     {
       title: "International Music Festival Buchenau",
       techStack: [
@@ -206,22 +300,6 @@ export const RESUME_DATA = {
 
 
     {
-      title: "Geringas Chamber Orchestra",
-      techStack: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "WordPress",
-        "Design"
-      ],
-      description:
-        "Custom-designed WordPress site for Geringas Chamber Orchestra, HTML, CSS, JavaScript development.",
-      link: {
-        label: "Geringas-chamber-orchestra.de",
-        href: "https://geringas-chamber-orchestra.de/",
-      },
-    },
-    {
       title: "Horizon Global",
       techStack: ["HTML", "CSS", "Javascript", 'SASS', 'Gulp'],
       description:
@@ -229,7 +307,7 @@ export const RESUME_DATA = {
       logo: '',
       link: {
         label: "Horizon Global",
-        href: "https://www.sherzod.dev/portfolio/index.html",
+        href: "https://www.sherzod.my/portfolio/index.html",
       },
     },
 
@@ -258,17 +336,6 @@ export const RESUME_DATA = {
     },
 
 
-    {
-      title: "International Music Competition Website",
-      techStack: ["Bootstrap", "PHP", "LESS", "JavaScript", "HTML", "CSS"],
-      description:
-        "Grunewald-Competition.com: A custom-designed website for an international music competition. Tailored to the client's specifications, I extensively modified Bootstrap and added new features like multilingual support. Utilized LESS preprocessor and developed a registration script in PHP with email confirmations for both site administrators and participants.",
-      logo: '',
-      link: {
-        label: "grunewald-competition.com",
-        href: "https://grunewald-competition.com",
-      },
-    },
 
     {
       title: "Blackmore Stringed Instruments - Wordpress website",
